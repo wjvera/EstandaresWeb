@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estándares de Servicios Web</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Estándares de Servicios Web</h1>
+  </header>
+  <main class="container">
+
+    <section class="box">
+      <h2>SOAP (Simple Object Access Protocol)</h2>
+      <div id="soap" class="hidden">
+        <p>
+            SOAP es un protocolo de mensajería basado en XML utilizado para intercambiar información estructurada en la implementación de servicios web. Fue ampliamente utilizado en el pasado, pero su popularidad ha disminuido en favor de otros estándares más ligeros, como REST.
+        </p>
+      </div>
+      <button id="soap-button">Mostrar información</button>
+    </section>
+
+
+    <section class="box">
+        <h2>REST (Representational State Transfer)</h2>
+        <div id="rest" class="hidden">
+          <p>
+            REST es un estilo arquitectónico que define un conjunto de restricciones para crear servicios web. Utiliza métodos HTTP como GET, POST, PUT y DELETE para manipular los recursos identificados por URLs. Es muy popular debido a su simplicidad y escalabilidad.
+          </p>
+        </div>
+        <button id="rest-button">Mostrar información</button>
+    </section>
+
+
+    <section class="box">
+        <h2>GraphQL</h2>
+        <div id="graq" class="hidden">
+          <p>
+            GraphQL es un lenguaje de consulta y manipulación de datos desarrollado por Facebook. Permite a los clientes especificar exactamente los datos que necesitan, lo que evita problemas de sobrecarga de datos y mejora la eficiencia en la comunicación entre cliente y servidor.
+          </p>
+        </div>
+        <button id="graq-button">Mostrar información</button>
+    </section>
+
+
+    <section class="box">
+        <h2>gRPC</h2>
+        <div id="gr" class="hidden">
+          <p>
+            gRPC es un marco de trabajo de código abierto desarrollado por Google. Utiliza el protocolo HTTP/2 para la comunicación y Protocol Buffers (protobuf) para la serialización de datos. gRPC se enfoca en la eficiencia y la baja latencia, lo que lo hace ideal para aplicaciones con alta demanda.
+          </p>
+        </div>
+        <button id="gr-button">Mostrar información</button>
+    </section>
+
+
+    <section class="box">
+        <h2>RESTful API</h2>
+        <div id="restful" class="hidden">
+          <p>
+            Una API RESTful es un estilo de diseño de API que se adhiere a los principios de REST. Es una forma popular de construir servicios web que se basan en estándares HTTP, utilizando URIs para identificar recursos y verbos HTTP para operar sobre ellos. Es simple, escalable y ampliamente utilizado.
+          </p>
+        </div>
+        <button id="restful-button">Mostrar información</button>
+    </section>
+
+
+    <section class="box">
+        <h2>JAX-RPC (Java API for XML-Based Remote Procedure Call)</h2>
+        <div id="jax" class="hidden">
+          <p>
+            JAX-RPC es una API de Java que permite a los desarrolladores crear aplicaciones basadas en XML para comunicarse con servicios web utilizando el protocolo SOAP. Fue reemplazado por JAX-WS en versiones posteriores de Java.
+          </p>
+        </div>
+        <button id="jax-button">Mostrar información</button>
+    </section>
+
+
+    <section class="box">
+        <h2>JSR-109 (Java Specification Request 109)</h2>
+        <div id="jsr" class="hidden">
+          <p>
+            JSR-109 es una especificación de Java que define un modelo de programación para implementar servicios web basados en la tecnología Java EE (Enterprise Edition). Proporciona pautas para el despliegue de servicios web y se basa en tecnologías como JAX-RPC y WSDL.
+          </p>
+        </div>
+        <button id="jsr-button">Mostrar información</button>
+    </section>
+
+
+    <section class="box">
+        <h2>WS-Security (Web Services Security)</h2>
+        <div id="ws" class="hidden">
+          <p>
+            WS-Security es una especificación que se enfoca en la seguridad de servicios web. Proporciona extensiones para agregar características de seguridad, como autenticación, cifrado y firmas digitales, a las comunicaciones basadas en SOAP.
+          </p>
+        </div>
+        <button id="ws-button">Mostrar información</button>
+    </section>
+
+
+    <section class="box">
+        <h2>WSDL (Web Services Description Language)</h2>
+        <div id="wsdl" class="hidden">
+          <p>
+            WSDL es un lenguaje basado en XML utilizado para describir la interfaz de un servicio web. Proporciona una descripción detallada de los métodos y tipos de datos que se pueden utilizar para interactuar con el servicio.
+          </p>
+        </div>
+        <button id="wsdl-button">Mostrar información</button>
+    </section>
+
+
+    <section class="box">
+        <h2>UDDI (Universal Description, Discovery, and Integration)</h2>
+        <div id="uddi" class="hidden">
+          <p>
+            UDDI es un estándar que permite a las empresas publicar y descubrir información sobre servicios web. Actúa como un directorio en línea que facilita la búsqueda, localización y utilización de servicios web disponibles.
+          </p>
+        </div>
+        <button id="uddi-button">Mostrar información</button>
+    </section>
+
+
+    <section class="box">
+        <h2>WSIL (Web Services Inspection Language)</h2>
+        <div id="wsil" class="hidden">
+          <p>
+            WSIL es un lenguaje basado en XML utilizado para describir la disponibilidad de servicios web. Proporciona una lista de servicios web disponibles, sus ubicaciones y las interfaces que ofrecen.
+          </p>
+        </div>
+        <button id="wsil-button">Mostrar información</button>
+    </section>
+
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
